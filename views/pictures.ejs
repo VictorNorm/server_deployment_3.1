@@ -17,11 +17,10 @@
     <div class="text-center">
       <img
         class="mb-3"
-        src="/pictures/<%=picture%>"
-        style="width: 100%"
-        alt="<%=picture%>"
+        src="data:image/png; base64, <%=picture.src%>"
+        style="width: 500px"
       />
-      <h4><%=picture%></h4>
+      <h4><%=picture.name%></h4>
     </div>
     <% });%>
     <script src="../javascripts/pictures.js"></script>
